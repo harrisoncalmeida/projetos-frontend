@@ -1,0 +1,230 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  padding: 2em 0;
+}
+
+.menu-icon {
+  display: none;
+  font-size: 2em;
+  cursor: pointer;
+}
+
+.header-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.header-logo {
+  padding-left: 5em;
+}
+
+.header-title {
+  font-family: var(--soucer-first);
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--color-fourth);
+  padding-left: 0.5em;
+}
+
+.lists {
+  display: flex;
+  justify-content: center;
+  list-style: none; /* Remoção de bullets das listas */
+  padding: 0; /* Remove o padding padrão */
+  margin: 0; /* Remove a margem padrão */
+}
+
+.list {
+  font-family: var(--soucer-first);
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--color-second);
+  padding: 0 1em;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.header-buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.button-enter,
+.button-register {
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 0.75em;
+  font-family: var(--soucer-first);
+  font-size: 16px;
+  font-weight: 500;
+  transition: background 0.3s ease; /* Adiciona transição suave */
+}
+
+.button-enter {
+  margin-right: 0.5em;
+  border: 1px solid var(--color-first);
+  background: var(--color-first);
+  color: var(--color-fourth);
+}
+
+.button-enter:hover {
+  background: darken(var(--color-first), 10%); /* Exemplo de efeito hover */
+}
+
+.button-register {
+  margin-right: 5em;
+  border: 1px solid var(--color-third);
+  background: var(--color-third);
+  color: var(--color-first);
+}
+
+.button-register:hover {
+  border-color: var(--color-fifth);
+  color: var(--color-third);
+  background: var(--color-fifth);
+}
+
+a:hover {
+  color: var(--color-third);
+}
+
+.menu-input,
+.list-menu-enter,
+.list-menu-register {
+  display: none;
+}
+
+.menu-input:checked .menu-lists {
+  display: block;
+}
+
+.list-menu {
+  padding: 1em;
+  background-color: var(--color-first);
+}
+
+.list {
+  background: var(--azul-degrade);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.list-menu-enter,
+.list-menu-register {
+  padding: 1em;
+  background-color: var(--color-first);
+}
+
+@media screen and (max-width: 767px) {
+  .header {
+    height: 100%;
+    padding: 1em 0;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .header-logo {
+    padding-left: 0.75em;
+  }
+
+  .menu-icon {
+    display: inline-block;
+  }
+
+  .menu-lists {
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    padding-right: 1em;
+  }
+
+  .lists {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: var(--color-first);
+    flex-direction: column;
+    align-items: flex-start;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .header-buttons {
+    display: none;
+  }
+
+  .enter,
+  .register {
+    color: var(--color-third);
+  }
+
+  .menu-input:checked ~ .lists {
+    display: flex;
+  }
+
+  .menu-input:checked ~ .lists .list-menu-enter,
+  .menu-input:checked ~ .lists .list-menu-register {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    height: 100%;
+    padding: 1em 0;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .header-logo {
+    padding-left: 0.75em;
+  }
+  
+  .menu-icon {
+    display: inline-block;
+  }
+
+  .lists {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: var(--color-first);
+    flex-direction: column;
+    align-items: flex-start;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .menu-lists {
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    padding-right: 1em;
+  }
+
+  .header-buttons {
+    display: none;
+  }
+
+  .enter,
+  .register {
+    color: var(--color-third);
+  }
+
+  .menu-input:checked ~ .lists {
+    display: flex;
+  }
+
+  .menu-input:checked ~ .lists .list-menu-enter,
+  .menu-input:checked ~ .lists .list-menu-register {
+    display: block;
+  }
+}

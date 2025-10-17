@@ -1,0 +1,331 @@
+/* Section first */
+.banner-title {
+    padding: 4.6em 0;
+    display: block;
+}
+
+.text-about {
+    font-family: var(--soucer-first);
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--color-third);
+    display: flex;
+    justify-content: center;
+}
+
+.text-title-about {
+    font-family: var(--soucer-first);
+    font-size: 48px;
+    font-weight: 600;
+    color: var(--color-black);
+    padding: 1em 0;
+    display: flex;
+    justify-content: center;
+}
+
+.text-title-wave {
+    font-family: var(--soucer-first);
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--color-black);
+    padding: 1em 0;
+    display: flex;
+    justify-content: center;
+}
+
+.text-describe {
+    font-family: var(--soucer-first);
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--color-fourth);
+    padding: 0 10%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Section second */
+.banner-informative {
+    display: flex;
+    justify-content: space-around;
+    margin: 5em 5em;
+}
+
+.container {
+    margin: 0 1.05em;
+}
+
+.project-title {
+    font-family: var(--soucer-first);
+    font-size: 60px;
+    font-weight: 600;
+    color: var(--color-third);
+    align-items: end;
+    padding-right: 2em;
+}
+
+.text-title {
+    font-family: var(--soucer-first);
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--color-black);
+    padding: 1em 0;
+}
+
+.text-project {
+    font-family: var(--soucer-first);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--color-fourth);
+}
+
+/* Section third */
+.wave-button {
+    font-family: var(--soucer-first);
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--color-third);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border: 2px solid ;
+    border-color: var(--color-fifth);
+    border-radius: 20px;
+    padding: 0.75em;
+    background: var(--color-fifth);
+    margin: 0 45%;
+    padding: 0.75em;
+    text-decoration: none;
+    color: var(--color-third);
+}
+
+.wave-button:hover {
+    color: var(--color-first);
+    border-color: var(--color-third);
+    background: var(--color-third);
+}
+
+.image-banner {
+    padding-top: 7.5em ;
+    display: block;
+    margin: auto;
+}
+
+.banner-describe {
+    display: flex;
+    flex-direction: column;
+    font-family: var(--soucer-first);
+}
+
+.describe-title-main {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0 30%;
+    padding: 2em 0;
+}
+
+.describe-title {
+    font-size: 18px;
+    font-weight: 500;
+    padding: 0.5em 1em;
+}
+
+.describe-text {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--color-second);
+    padding: 1em 1em;
+}
+
+.describe-text-style {
+    padding: 0 1em;
+}
+
+.container-describe {
+    border: 1px solid var(--color-sixth);
+    border-radius: 10px;
+    margin: 1em 32%;
+    padding: 2em 2em 2em 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/* Section fourth */
+.banner-testimony {
+    border: 1px solid transparent;
+    border-radius: 10px;
+    background-color: var(--color-fifth);
+    margin: 7.5em 5%;
+}
+
+.text-testimony {
+    font-family: var(--soucer-first);
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--color-third);
+    display: flex;
+    justify-content: center;
+    padding-top: 5em;
+}
+
+.title-testimony {
+    font-family: var(--soucer-first);
+    font-size: 36px;
+    font-weight: 500;
+    color: var(--color-fourth);
+    margin: 0 2em;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 1em;
+    color: var(--color-black);
+}
+
+.container-testimony {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em 0;
+}
+
+.testimony-avatar {
+    font-family: var(--soucer-first);
+    font-size: 16px;
+    font-weight: 500;
+    padding: 1em 0;
+}
+
+.testimony-describe {
+    font-family: var(--soucer-first);
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--color-second);
+}
+
+@media  screen and (max-width: 767px) {
+    .banner-title {
+        align-items: center;
+        text-align: center;
+        padding: 2.5em 0;
+    }
+
+    .text-about {
+        font-size: 18px;
+    }
+
+    .text-title-about {
+        font-size: 28px;
+    }
+
+    .text-describe {
+        font-size: 14px;
+    }
+
+    .banner-informative {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container {
+        align-items: center;
+        text-align: center;
+    }
+
+    .image-banner {
+        width: 100%;
+    }
+
+    .text-title-wave {
+        font-size: 18px;
+    }
+
+    .banner-informative {
+        flex-wrap: wrap;
+        margin: 0 0;
+    }
+
+    .project-title {
+        font-size: 32px;
+        padding-right: 0;
+    }
+
+    .text-title {
+        font-size: 14px;
+    }
+
+    .text-project {
+        font-size: 12px;
+        margin-bottom: 2em;
+    }
+
+    .wave-button {
+        margin: 0 25%;
+    }
+    
+    .image-banner {
+        padding-top: 2em;
+    }
+
+    .describe-title-main {
+        margin: 0 5%;
+        padding: 1em 0;
+    }
+    
+    .container-describe {
+        margin: 10px 5%;
+        padding: 1em 0;
+    }
+
+    .banner-testimony {
+        margin: 1.5em 5%;
+    }
+
+    .text-testimony {
+        padding-top: 2em;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .title-testimony {
+        font-size: 20px;
+        margin: 0 1em;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .banner-informative {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .project-title {
+        text-align: center;
+        padding-right: 0;
+    }
+
+    .text-title {
+        text-align: center;
+    }
+
+    .text-project {
+        text-align: center;
+        margin-bottom: 2em;
+    }
+
+    .wave-button {
+        margin: 0 30%;
+    }
+
+    .image-banner {
+        width: 100%;
+    }
+
+    .describe-title-main {
+        margin: 0 5%;
+    }
+
+    .container-describe {
+        margin: 1em 5%;
+    }
+}

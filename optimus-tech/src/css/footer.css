@@ -1,0 +1,105 @@
+.footer {
+    background-color: var(--color-gray);
+    display: block;
+}
+
+.title-footer {
+    display: flex;
+    justify-content: center;
+    padding-top: 2em;
+    font-family: var(--soucer-first);
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--color-black);
+}
+
+.describe-footer {
+    display: flex;
+    justify-content: center;
+    font-family: var(--soucer-first);
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--color-second);
+    padding: 2em 0;
+}
+
+.buttons-footer {
+    display: flex;
+    justify-content: center;
+}
+
+.input-footer {
+    background-color: transparent;
+    border: 1px solid var(--color-second);
+    color: var(--color-first);
+    border-radius: 10px;
+    padding: 0 7em 0 1em;
+    font-family: var(--soucer-first);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.button-footer {
+    text-decoration: none;
+    border: 1px solid var(--color-third);
+    border-radius: 10px;
+    padding: 0.75em;
+    background: var(--color-third);
+    color: var(--color-first);
+    font-family: var(--soucer-first);
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0 1em;
+}
+
+.describe-footer-end {
+    display: flex;
+    justify-content: center;
+    font-family: var(--soucer-first);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--color-second);
+    padding-top: 2em;
+    padding-bottom: 4em;
+}
+
+.input-footer:focus, .button-footer:focus {
+    color: var(--color-black);
+    outline: 2px solid var(--color-third);
+    outline-offset: 2px;
+}
+
+.button-footer {
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.button-footer:hover {
+    border-color: var(--color-fifth);
+    color: var(--color-third);
+    background: var(--color-fifth);
+}
+
+@media  screen and (max-width: 767px) {
+    .footer {
+        /* width: 20%; */
+    }
+
+    .title-footer {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .describe-footer {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .input-footer {
+        padding: 0 0 0 0.5em;
+    }
+
+    .describe-footer-end {
+        font-size: 14px;
+        text-align: center;
+    }
+}

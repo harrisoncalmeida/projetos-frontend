@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./SRC/css/reset.css">
+    <link rel="stylesheet" href="./SRC/css/style.css">
+    <link rel="stylesheet" href="./SRC/css/register.css">
+
+    <title>OptimusTech Cadastro</title>
+</head>
+
+<body>
+    <main class="main-register">
+        <div class="register-card">
+            <form class="card">
+                <div class="card-header">
+                    <img src="./SRC/img/Logo.svg" alt="Imagem da logo OptimusTech" class="header-logo">
+                    <h2 class="register-title">Cadastro</h2>
+                </div>
+                <div class="card-content">
+                    <div class="card-content-area">
+                        <label for="usuario">Seu usuário</label>
+                        <input type="text" id="usuario" autocomplete="off" required maxlength="50" required>
+                    </div>
+                    <div class="card-content-area">
+                        <label for="usuario">Seu e-mail</label>
+                        <input type="text" id="email" autocomplete="off" required maxlength="50" required>
+                    </div>
+                    <div class="card-content-area">
+                        <label for="password">Sua senha</label>
+                        <input type="password" id="password" autocomplete="off" required maxlength="60" required>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <input type="submit" value="Cadastrar" class="submit">
+                    <a href="#" class="recover-password">Esqueceu a senha?</a>
+                    <a href="./login.html" class="register">Já tem conta? Ir para login</a>
+                    <a href="./index.html" class="page">Página inicial</a>
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>
