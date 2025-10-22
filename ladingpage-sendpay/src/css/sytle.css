@@ -1,3 +1,8 @@
+/* Import Style */
+@import url(./header.css);
+@import url(./main.css);
+
+
 /* Import fonts */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
@@ -5,4 +10,10 @@
 :root {
     --font-primary: "Montserrat", sans-serif;
     --cor-primary: #000000;
+    --cor-secundary: #6C63FF;
+    --cor-tertiary: #FFFFFF;
+    --bt-primary: #FFFFFF;
+    --bt-secundary: #6C63FF;
+    --bt-line-01: #B7B3B3;
+    --bt-line-02: #353434;
 }
