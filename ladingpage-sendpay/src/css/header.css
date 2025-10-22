@@ -58,6 +58,6 @@
     border: 2px solid var(--bt-line-01);
     font-family: var(--font-primary);
     font-size: 16px;
-    color: var(--cor-primary);
+    color: var(--cor-tertiary);
     font-weight: 600;
 }
