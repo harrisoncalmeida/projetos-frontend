@@ -1,3 +1,5 @@
+/* Section hero */
+
 .hero {
     display: flex;
     align-items: center;
@@ -23,8 +25,8 @@
 .hero-description {
     font-family: var(--font-primary);
     font-size: 20px;
-    font-weight: 300;
-    color: var(--cor-primary);
+    font-weight: 400;
+    color: var(--cor-quaternary);
     padding: 0 6em 3em 0;
 }
 
@@ -51,3 +53,70 @@
     font-weight: 400;
 }
 
+/* Section works */
+
+.how-it-works {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4em 6em;
+}
+
+.works-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.works-tittle {
+    font-family: var(--font-primary);
+    font-size: 44px;
+    font-weight: 600;
+    color: var(--cor-primary);
+    padding-bottom: .5em;
+}
+
+.works-description {
+    font-family: var(--font-primary);
+    font-size: 25px;
+    font-weight: 600;
+    color: var(--cor-quaternary);
+    padding-top: .5em;
+    margin: 0 12em;
+    text-align: center;  
+}
+
+.works-steps {
+    display: flex;
+    justify-content: center;
+}
+
+.step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 6em;
+}
+
+.step-icon {
+    width: 207px;
+    height: 207px;
+    padding-bottom: 3em;
+}
+
+.step-tittle {
+    font-family: var(--font-primary);
+    font-size: 27px;
+    font-weight: 600;
+    color: var(--cor-primary);
+    padding-bottom: .75em;
+}
+
+.step-description {
+    font-family: var(--font-primary);
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--cor-quaternary);
+    text-align: center;
+    padding: 0 1em;
+}
