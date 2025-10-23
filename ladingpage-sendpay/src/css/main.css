@@ -59,7 +59,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 4em 6em;
+    padding: 4em 6em 15em 6em;
 }
 
 .works-header {
@@ -127,7 +127,7 @@
     display: flex;
     align-items: end;
     justify-content: space-between;
-    padding: 7em 3em 0 0;
+    padding: 7em 3em 5em 0;
 }
 
 .check-currency-image {
@@ -136,14 +136,23 @@
 }
 
 .check-currency-ellipse {
-   width: 100%;
-   height: auto;
+   position: absolute;
+   top: -40%;
+   left: 0%;
+   z-index: 1;
 }
 
 .check-currency-undraw {
-    position: absolute;
-    top: 50%;
-    left: 15%;
+   height: auto;
+   width: 100%;
+   z-index: 2;
+   position: relative;
+   left: 10%;
+}
+
+.check-currency-content {
+    width: 423px;
+    height: 240px;
 }
 
 .check-currency-tittle {
@@ -151,6 +160,7 @@
     font-size: 40px;
     font-weight: 600;
     color: var(--cor-primary);
+    padding-bottom: .25em;
 }
 
 .check-currency-description {
@@ -158,6 +168,8 @@
     font-size: 20px;
     font-weight: 400;
     color: var(--cor-quaternary);
+    padding-top: 2em;
+    padding-right: 1em;
 }
 
 .check-currency-ream {
@@ -165,4 +177,5 @@
     font-size: 22px;
     font-weight: 600;
     color: var(--cor-secundary);
+    padding-top: 0.75em;
 }
