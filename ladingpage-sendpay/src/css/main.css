@@ -127,7 +127,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* padding: 7em 3em 5em 0; */
+    padding: 3em 3em 5em 0;
     height: 80vh;
 }
 
@@ -243,4 +243,15 @@
     font-weight: 600;
     color: var(--bt-line-01);
     padding-top: 1em;
+}
+
+.services-item {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    max-width: 800px;
+}
+
+.item {
+    display: flex;
 }
