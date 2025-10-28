@@ -125,9 +125,10 @@
 
 .check-currency {
     display: flex;
-    align-items: end;
+    align-items: center;
     justify-content: space-between;
-    padding: 7em 3em 5em 0;
+    /* padding: 7em 3em 5em 0; */
+    height: 80vh;
 }
 
 .check-currency-image {
@@ -178,4 +179,51 @@
     font-weight: 600;
     color: var(--cor-secundary);
     padding-top: 0.75em;
+}
+
+/* Section services */ 
+
+.services {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.services-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.services-content-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.services-content-logo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.services-tittle {
+    font-family: var(--font-primary);
+    font-size: 44px;
+    font-weight: 600;
+    color: var(--cor-primary);
+}
+
+.services-logo {
+    width: 41px;
+    height: 41px;
+}
+
+.services-sendpay {
+    font-family: var(--font-primary);
+    font-size: 25px;
+    font-weight: 600;
+    color: var(--cor-secundary);
 }
