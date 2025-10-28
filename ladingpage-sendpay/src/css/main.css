@@ -203,12 +203,6 @@
     align-items: center;
 }
 
-.services-content-logo {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-
 .services-tittle {
     font-family: var(--font-primary);
     font-size: 44px;
@@ -217,8 +211,15 @@
 }
 
 .services-logo {
-    width: 41px;
-    height: 41px;
+    width: 51px;
+    height: 51px;
+    margin: 0 1em;
+    position: relative;
+    top: 15px;
+}
+
+.services-line {
+    padding: 2em 0;
 }
 
 .services-sendpay {
@@ -226,4 +227,20 @@
     font-size: 25px;
     font-weight: 600;
     color: var(--cor-secundary);
+    position: relative;
+    top: 15px;
+}
+
+.services-content-logo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.services-description {
+    font-family: var(--font-primary);
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--bt-line-01);
+    padding-top: 1em;
 }
