@@ -246,12 +246,49 @@
 }
 
 .services-item {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 15px;
-    max-width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 1074px;
+    height: 324px;
+    padding: 5em;
 }
 
 .item {
     display: flex;
+    width: 50%;
+}
+
+.content-item {
+    flex-direction: column;
+    width: 403px;
+    height: 100px;
+}
+
+.banco, .relogio {
+    width: 95px;
+    height: 92px;
+}
+
+.phone, .truck {
+    width: 63.6px;
+    height: 76x;
+    margin-right: 1.75em;
+}
+
+.item-tittle {
+    font-family: var(--font-primary);
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--cor-primary);
+    margin: 0.5em 0;
+}
+
+.item-description {
+    font-family: var(--font-primary);
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--bt-line-01);
+    margin: 2em 0;
 }
