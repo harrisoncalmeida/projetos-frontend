@@ -292,3 +292,21 @@
     color: var(--bt-line-01);
     margin: 2em 0;
 }
+
+/* Section about */ 
+
+/* .about {
+    background: var(--cor-secundary);
+    display: flex;
+}
+
+.cards {
+    display: flex;
+}
+
+.about-card {
+    width: 298px;
+    height: 306px;
+    flex-direction: column;
+    background: var(--cor-tertiary);
+} */
