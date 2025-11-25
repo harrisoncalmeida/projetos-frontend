@@ -298,7 +298,7 @@
 .about {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     height: 500px;
     background: var(--cor-secundary);
 }
@@ -314,8 +314,9 @@
     font-family: var(--font-primary);
     font-size: 33px;
     font-weight: 200;
+    font-style: italic;
     color: var(--cor-tertiary);
-    line-height: 1.4;
+    line-height: 1.6;
 }
 
 .about-line {
@@ -332,12 +333,18 @@
     font-size: 22px;
     font-weight: 400;
     color: var(--cor-tertiary);
+    margin-top: 2em;
+}
+
+.about-group {
+    margin-top: 2.5em;
+    margin-left: 1em;
 }
 
 .cards {
     display: flex;
     gap: 20px;
-    padding-left: 15.75em;
+    padding-left: 5em;
 }
 
 .about-card {
