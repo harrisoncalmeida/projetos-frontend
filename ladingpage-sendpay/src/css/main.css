@@ -399,3 +399,146 @@
     margin-top: 0.25em;
     color: var(--cor-chitenarian);
 }
+
+/* Footer */
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70vh;
+    padding-bottom: 4em;
+    
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    padding-left: 7.5em;
+}
+
+.footer-logo-tittle {
+    display: flex;
+    align-items: center;
+}
+
+.footer-tittle {
+    font-family: var(--font-primary);
+    font-size: 25px;
+    font-weight: 600;
+    color: var(--cor-secundary);
+    padding-left: 0.75em;
+}
+
+.footer-description {
+    font-family: var(--font-primary);
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--bt-line-01);
+    padding-top: 2em;
+    width: 317px;
+    height: 90px;
+}
+
+.footer-list {
+    display: flex;
+    justify-content: center;
+    width: 416px;
+    padding-top: 6.5em;
+}
+
+.products-main {
+    font-family: var(--font-primary);
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--cor-footer);
+}
+
+.products {
+    font-family: var(--font-primary);
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--cor-primary);
+    padding-top: 2em;
+}
+
+.about-main {
+    font-family: var(--font-primary);
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--cor-footer);
+    padding-top: 3.25em;
+}
+
+.fot-about {
+    font-family: var(--font-primary);
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--cor-primary);
+    padding-top: 2em;  
+}
+
+.catalog-main {
+    font-family: var(--font-primary);
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--cor-footer);
+}
+
+.catalog {
+    font-family: var(--font-primary);
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--cor-primary);
+    padding-top: 2em;  
+}
+
+.footer-social {
+    padding-top: 6.5em;
+    padding-right: 1.5em;
+}
+
+.footer-contacts {
+    width: 223px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: var(--cor-secundary);
+    border-radius: 15px;
+}
+
+.social-contacts {
+    font-family: var(--font-primary);
+    font-size: 22px;
+    font-weight: 800;
+    color: var(--cor-tertiary);
+}
+
+a {
+    text-decoration: none;
+}
+
+.text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+    padding-top: 0.5em;
+    font-family: var(--font-primary);
+    font-size: 22px;
+    font-weight: 400;
+    color: var(--cor-tertiary);
+}
+
+.teste {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.image-footer {
+    width: 57px;
+    height: 57px;
+}
