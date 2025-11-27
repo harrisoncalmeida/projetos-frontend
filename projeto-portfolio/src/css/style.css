@@ -1,0 +1,14 @@
+/* Import Style */
+@import url(./reset.css);
+
+/* Import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+/* My root */
+:root {
+    --font-primary: "Crimson Text", serif;
+    --cor-primary: #000000;
+    --cor-secundary: #FFFFFF;
+    --cor-tertiary: #F6F8FA;
+    --cor-quaternary: #D9D9D9;
+}
