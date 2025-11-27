@@ -127,8 +127,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 3em 3em 5em 0;
-    height: 80vh;
+    padding: 0 3em 5em 0;
+    height: 60vh;
 }
 
 .check-currency-image {
@@ -184,6 +184,7 @@
 /* Section services */ 
 
 .services {
+    padding: 3em 0;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -306,7 +307,6 @@
 .content-about {
     flex-direction: column;
     width: 152px;
-    height: 268px;
     padding-left: 8em;
 }
 
@@ -333,11 +333,11 @@
     font-size: 22px;
     font-weight: 400;
     color: var(--cor-tertiary);
-    margin-top: 2em;
+    margin-top: 1em;
 }
 
 .about-group {
-    margin-top: 2.5em;
+    margin-top: 1.5em;
     margin-left: 1em;
 }
 
