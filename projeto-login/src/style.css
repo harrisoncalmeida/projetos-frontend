@@ -82,9 +82,30 @@ a {
 	background: #4e81c9;
 }
 
-@media (min-width: 768px) {
+
+@media screen and (max-width: 768px) {
+	h1 {
+		text-align: center;
+	}
+	
+	.container {
+		min-width: 0;
+	}
+
 	.container .containerRight {
-		position: static;
-		width: 60vw;
+		width: 90vw;
+		height: 80vh;
+	}
+
+}
+
+@media screen and (max-width: 1024px) {
+		.container {
+		min-width: 0;
+	}
+
+	.container .containerRight {
+		width: 90vw;
+		height: 80vh;
 	}
 }
