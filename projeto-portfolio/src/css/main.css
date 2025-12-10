@@ -1,7 +1,16 @@
-.main-content {
+main {
     display: flex;
     justify-content: center;
-    align-items: star;
+    padding-top: 4.5em;
+}
+
+.main-content {
+    display: flex;
+}
+
+.main-left {
+    width: 317px;
+    height: 514px;
 }
 
 .main-logo {
@@ -30,12 +39,37 @@
     color: var(--cor-primary);
 }
 
-.content-secundary {
-    width: 800px;
-    height: 735px;
-    border: 1px solid ;
+.edition {
+    margin-top: 2em;
+}
+
+.span {
+    font-style: italic;
+    font-weight: 900;
 }
 
 .main-right {
-    
+    width: 800px;
+    height: 735px;
+    border: 3px solid var(--cor-quaternary);
+    border-radius: 15px;  
+}
+
+.content-secundary {
+    display: flex;
+    align-items: center;
+}
+
+.content-tertiary {
+    display: flex;
+    align-items: center;
+}
+
+.icone-html, .icone-css, .icone-js, .icone-python, .icone-github, .icone-git {
+    width: 48px;
+    height: 48px;
+}
+
+.teste {
+    text-align: center;
 }
