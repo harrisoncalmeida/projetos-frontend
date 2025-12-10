@@ -1,0 +1,41 @@
+.main-content {
+    display: flex;
+    justify-content: center;
+    align-items: star;
+}
+
+.main-logo {
+    width: 296px;
+    height: 345px;
+}
+
+.tittle-primary {
+    font-family: var(--font-primary);
+    font-size: 40px;
+    font-weight: 600;
+    color: var(--cor-primary);
+}
+
+.tittle-secundary {
+    font-family: var(--font-primary);
+    font-size: 22px;
+    font-weight: 400;
+    color: var(--cor-quinary);
+}
+
+.description-primary {
+    font-family: var(--font-primary);
+    font-size: 22px;
+    font-weight: 400;
+    color: var(--cor-primary);
+}
+
+.content-secundary {
+    width: 800px;
+    height: 735px;
+    border: 1px solid ;
+}
+
+.main-right {
+    
+}
